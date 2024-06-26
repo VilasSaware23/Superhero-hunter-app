@@ -1,0 +1,123 @@
+/*body css */
+body {
+     font-family: Roboto, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+/*background video css*/
+#bg-video {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    min-width: 100%; 
+    min-height: 100%; 
+    z-index: -1; 
+}
+/*navigations class css*/
+.navigations {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    margin-top:0px; 
+}
+/*nav-list claass css*/
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+/*nav-item class css*/
+.nav-item {
+    margin: 0;
+    margin-left: 0px;
+    padding: 10px 20px;
+}
+/* nav-item a css*/
+.nav-item a {
+    color: white;
+    text-decoration: none;
+     padding: 8px 16px;
+    display: block;
+    background-color: #e00000;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+        font-weight: bold;
+}
+/*nav-item a hover css*/
+.nav-item a:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #000000;
+}
+/*favorites-container class css*/
+.favorites-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto;
+}
+/*character-card class css*/
+.character-card {
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    color: #ffffff;
+}
+/*character-card img css*/
+.character-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+/*character-card h3 css*/
+.character-card h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+/*character-card remove-button class css*/
+.character-card .remove-button {
+    display: block;
+    margin: 10px auto 0;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #c20000;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+        font-weight: bold;
+}
+/*character-card remove-button class hover css*/
+.character-card .remove-button:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #000000;
+}
+/*footer css*/
+footer {
+    position: fixed;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000; /* Background color */
+    color: #ffffff; /* Text color */
+    text-align: center;
+    padding: 5px 5px; /* Padding for top and bottom */
+}

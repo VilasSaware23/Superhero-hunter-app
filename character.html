@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Character Details</title>
+        <!-- linking character.css file -->
+        <link rel="stylesheet" href="character.css">
+    </head>
+    <body>
+       <!--  Applying background video to body part -->
+         <video id="bg-video" autoplay muted loop>
+            <source src="character.mp4" type="video/mp4">
+        </video> 
+        <!-- start of the navigations div -->
+        <div class="navigations">
+            <!-- start of the navigation part -->
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+            </ul>
+            <!-- end of the navigation part -->
+        </div>
+         <!-- end of the navigations div -->
+          <!-- start of the characters div -->
+        <div id="character-details">
+            <!-- Example character details -->
+            <!-- start of the character-details -->
+            <div class="character-details">
+                <h2></h2>
+                <img src="" alt="">
+                <p></p>
+            </div>
+            <!-- end of the character-details -->
+        </div>
+        <!-- end of the characters div -->
+        <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 SuperHero. All rights reserved.</p>
+    </footer>
+   
+        <!-- Include Axios from a CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <!-- Include CryptoJS from a CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+        <!-- linking character.js file -->
+        <script src="character.js"></script>
+    </body>
+    </html>

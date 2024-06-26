@@ -1,0 +1,187 @@
+
+    /*Body css*/
+    body {
+        font-family: Roboto, sans-serif;
+        background-color: transparent;
+        margin: 0;
+        padding: 0px;
+    }
+    /*background video css*/
+    #bg-video {
+        position: fixed; 
+        top: 0;
+        left: 0;
+        min-width: 100%; 
+        min-height: 100%;
+        z-index: -1; 
+    }
+    /*navbar class css*/
+    .navbar {
+        background-color: #000000;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        position: fixed; 
+        top: 0;
+        width: 100%; 
+        height: 60px;
+        z-index: 1000; 
+        box-sizing: border-box;
+    }
+    /*nav-logo class css*/
+    .nav-logo {
+        width: 10%;
+        height: 70%;
+        object-fit: cover; 
+    }
+    /*nav-heading class h1 css*/
+    .nav-heading h1{
+            color: #24ff34;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    /*nav-heading class image css*/
+    .nav-heading img{
+            width: 30px;
+            height:30px;
+        }
+     /*navigations class css*/
+    .navigations {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px; 
+    }
+    /*search-form class css*/
+    .search-form {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+    /*search-input id css*/
+    #search-input {
+        padding: 8px;
+        border: 0.5px solid gray;
+        border-radius: 4px;
+        font-size: 14px;
+        margin-right: 10px;
+        width: 300px;
+        background-color: transparent;
+        color: #ffffff;
+    }
+    /*search-button  class css*/
+    .search-button {
+        font-weight: bold;
+        padding: 10px 18px;
+        background-color:  #e00000;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-size: 16px;
+    }
+    /*search-button hover css*/
+    .search-button:hover {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    /*nav-list class css*/
+    .nav-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+    /*nav-item class css*/
+    .nav-item {
+        
+        margin-left: 0px;
+        padding: 10px 20px;
+    }
+    /*nav-item a css*/
+    .nav-item a {
+        color: white;
+        text-decoration: none;
+         padding: 8px 16px;
+        display: block;
+        background-color: #e00000;
+        transition: background-color 0.3s ease;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    /*nav-item a hover css*/
+    .nav-item a:hover {
+        background-color: #ffffff;
+        border-radius: 5px;
+        color:#000000;
+    }
+    /*characters div css*/
+    #characters {
+        margin-top: 120px;
+        margin-bottom:25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    /*character class css*/
+    .character {
+        background-color: transparent;
+        padding: 10px;
+        margin: 10px;
+        width: 350px;
+        height: 350px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        color: #ffffff;
+    }
+    /*character img css*/
+    .character img {
+        width: 70%;
+        height: 60%;
+        border-radius: 50%;
+    }
+    /*character button css*/
+    .character button {
+        margin-top: 25px;
+        padding: 8px 16px;
+        cursor: pointer;
+        border: none;
+        background-color: #00c200;
+        color: #fff;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 10px;
+    
+    }
+    /*character button hover css*/
+    .character button:hover {
+        background-color: #ffffff;
+        color: #000000;
+    }
+/*footer css*/
+    footer {
+    position: fixed;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000; /* Background color */
+    color: #ffffff; /* Text color */
+    text-align: center;
+    padding: 5px 5px; /* Padding for top and bottom */
+}
+
+
