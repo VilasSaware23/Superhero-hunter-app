@@ -1,6 +1,6 @@
     // Accessing public and private key
-    const PUBLIC_KEY = 'e5701205a41828cea004580d227e57bd'; // Replace with your actual public key
-    const PRIVATE_KEY = '798856f4f1f234e20596f036fabb56301ef2e80a'; // Replace with your actual private key
+    const PUBLIC_KEY = 'e5701205a41828cea004580d227e57bd'; 
+    const PRIVATE_KEY = '798856f4f1f234e20596f036fabb56301ef2e80a'; 
 
     // fetching the characters from the api link properties
     const fetchCharacters = async () => {
